@@ -75,9 +75,18 @@ APK подписан локальным ключом EXA. Обновления �
 ## Скриншоты
 
 <p align="center">
-  <img src="docs/images/android-profiles.png" alt="Профили и подписки" width="280">
-  <img src="docs/images/android-settings.png" alt="Настройки" width="280">
-  <img src="docs/images/android-routing.png" alt="Маршрутизация" width="280">
+  <img src="docs/images/android-home.png" alt="Главный экран" width="260">
+  <img src="docs/images/android-profiles.png" alt="Подписки как в Happ" width="260">
+  <img src="docs/images/android-settings.png" alt="Центр управления" width="260">
+</p>
+<p align="center">
+  <img src="docs/images/android-routing.png" alt="Маршрутизация Xray" width="260">
+  <img src="docs/images/android-qr.png" alt="QR-шаринг профиля" width="260">
+  <img src="docs/images/android-json.png" alt="Превью Xray JSON" width="260">
+</p>
+<p align="center">
+  <img src="docs/images/android-profiles-list.png" alt="Группы профилей по подпискам" width="260">
+  <img src="docs/images/android-settings-policies.png" alt="Политики, приложения и система" width="260">
 </p>
 
 ## Сборка
