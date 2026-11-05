@@ -382,7 +382,8 @@ fun ExaRoot(
     }
 
     if (subScreen != null) {
-        when (subScreen) {
+        Surface(Modifier.fillMaxSize(), color = ExaBg) {
+            when (subScreen) {
             "routing" -> RoutingScreen(
                 settings = settings,
                 onSettings = ::updateSettings,
@@ -407,6 +408,7 @@ fun ExaRoot(
                 onBack = { subScreen = null }
             )
             else -> Unit
+            }
         }
     } else {
         Scaffold(
@@ -1615,7 +1617,7 @@ private fun SettingsScreen(
                 Button(onClick = onOpenScanner) { Text("Сканировать") }
             }
             Text(
-                "Работает офлайн: кадр обрабатывается ML Kit прямо на телефоне.",
+                "Работает офлайн: QR декодируется на устройстве через ZXing.",
                 fontSize = 10.sp,
                 color = ExaMuted2
             )

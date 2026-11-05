@@ -154,6 +154,7 @@ private fun PermissionPrompt(
             "Нужен доступ к камере",
             fontSize = 22.sp,
             fontWeight = FontWeight.Black,
+            color = ExaText,
             textAlign = TextAlign.Center
         )
         Spacer(Modifier.height(8.dp))

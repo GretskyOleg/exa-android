@@ -87,7 +87,7 @@ fun SubHeader(title: String, subtitle: String? = null, onBack: () -> Unit) {
         }
         Spacer(Modifier.width(4.dp))
         Column {
-            Text(title, fontSize = 22.sp, fontWeight = FontWeight.Black)
+            Text(title, fontSize = 22.sp, fontWeight = FontWeight.Black, color = ExaText)
             if (subtitle != null) {
                 Text(subtitle, fontSize = 10.sp, color = ExaMuted2, letterSpacing = 1.1.sp)
             }
