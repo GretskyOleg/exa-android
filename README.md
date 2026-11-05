@@ -64,7 +64,7 @@ Android 10+ (API 29). Без рекламы, аналитики и сторон�
 
 ## Установка
 
-1. Скачай `EXA-0.1.0.apk` из [релизов](https://github.com/GretskyOleg/exa-android/releases).
+1. Скачай `EXA-0.1.1.apk` из [релизов](https://github.com/GretskyOleg/exa-android/releases).
 2. Разреши установку из неизвестного источника.
 3. Открой EXA → «Профили» → добавь `vless://`, QR или HTTPS-подписку.
 4. Нажми «Подключить» и разреши VPN.
